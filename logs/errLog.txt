@@ -1,0 +1,12 @@
+20230424	05:18:00	f4b25ddc-f564-460d-8524-3eb7388826b0	Error: Not allowed by CORS
+20230424	05:23:25	4df0f78f-d925-4563-b058-f986f8c84694	TypeError: req.accepted is not a function
+20230424	05:52:59	2a75880d-8ccd-4542-932d-c8af5fc87dea	ReferenceError: path is not defined
+20230424	05:59:10	4c703e27-2ab6-4f6e-964a-512691c447fa	ForbiddenError: Forbidden
+20230424	17:00:04	e6ae5d58-0667-4711-9c96-08c2307c8fb9	TypeError: data.filter is not a function
+20230519	15:19:35	8b40625c-17b7-43b3-a027-d05ad49ef8c7	TypeError: res.headers is not a function
+20230519	15:20:00	e7600652-0b1f-4063-a34c-25890ed65730	TypeError: res.headers is not a function
+20230519	15:20:04	fc28d27a-ecfd-474e-8cb3-12edd8d7098f	TypeError: res.headers is not a function
+20230519	15:21:33	1f69bf12-eeea-4e36-a4fe-8baa0f4e4a17	TypeError: req.headers is not a function
+20230519	15:22:16	eb75392d-fdd2-47b3-916b-253e271119e8	TypeError: req.headers is not a function
+20230519	15:23:17	258f2ac5-23df-4ac6-86b8-d034f4d5a06c	TypeError: req.headers is not a function
+20230519	15:23:41	5ec16737-955c-4e46-bc35-d9b494b222ba	TypeError: req.headers is not a function
