@@ -23,13 +23,14 @@ const handleLogin = async (req, res) => {
                 }
              },
             process.env.ACCESS_TOKEN_SECRET,
-            // { expiresIn: "30s" }
-            { expiresIn: '1h' }
+            { expiresIn: "30s" }
+            // { expiresIn: '1h' }
         );
         const refreshToken = jwt.sign(
             { "username": foundUser.username },
             process.env.REFRESH_TOKEN_SECRET,
-            { expiresIn: '1d' }
+            { expiresIn: "45s" }
+            // { expiresIn: '1d' }
         );
         // Saving refreshing token with current user
         foundUser.refreshToken = refreshToken;
@@ -53,7 +54,7 @@ const handleLogin = async (req, res) => {
             // secure: true, // in dev server or production or chrome
             maxAge: 24 * 60 * 60 * 1000
         });
-        res.json({ accessToken, roles });
+        res.json({ accessToken });
     } else {
         res.sendStatus(401);
     }
